@@ -3,7 +3,7 @@
   if (!root || !window.SLIDE_PATHS || !window.SLIDE_PATHS.length) return;
 
   var paths = window.SLIDE_PATHS;
-  var durationMs = 4000;
+  var durationMs = 3000;
   var index = 0;
 
   paths.forEach(function (src, i) {
