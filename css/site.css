@@ -98,9 +98,12 @@ img {
   white-space: nowrap;
 }
 
-.site-nav a:hover,
-.site-nav a.is-active {
+.site-nav a:hover {
   color: #fff;
+}
+
+.site-nav a.is-active {
+  color: #C42525;
 }
 
 main {
