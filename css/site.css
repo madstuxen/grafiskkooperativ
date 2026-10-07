@@ -55,8 +55,8 @@ img {
 }
 
 .logo-link img {
-  width: 258px;
-  max-width: min(258px, 40vw);
+  width: 195px;
+  max-width: min(195px, 40vw);
   height: auto;
   display: block;
 }
