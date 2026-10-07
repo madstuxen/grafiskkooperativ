@@ -247,6 +247,14 @@ main {
   text-transform: uppercase;
 }
 
+.gallery-section h2.gallery-section__title--proper {
+  text-transform: none;
+}
+
+.gallery-section h2.gallery-section__title--proper::first-letter {
+  text-transform: none;
+}
+
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
