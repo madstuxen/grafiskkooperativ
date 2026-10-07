@@ -133,6 +133,17 @@ main {
   color: #fff;
 }
 
+.site-footer a.footer-email {
+  color: #C42525;
+  font-size: 1.375rem;
+}
+
+.site-footer a.footer-email:hover {
+  color: #e03030;
+}
+
+
+
 .page-content {
   max-width: 1280px;
   margin: 0 auto;
