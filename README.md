@@ -21,6 +21,13 @@ When you move DNS from your old host:
 1. Add a `CNAME` file in the repo root with your hostname (e.g. `www.grafiskkooperativ.dk`), or configure apex A/AAAA records per [GitHub docs](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site).
 2. Enable HTTPS in GitHub Pages settings after DNS propagates.
 
+## SEO
+
+- [sitemap.xml](sitemap.xml) — submit in [Google Search Console](https://search.google.com/search-console) after DNS points to the site
+- [robots.txt](robots.txt) — references the sitemap
+
+When you switch to **grafiskkooperativ.dk**, update URLs in `sitemap.xml` and `robots.txt` to match your domain.
+
 ## Structure
 
 - `index.html`, `about.html`, `gallery.html`, `work.html`, `projects.html`
