@@ -90,6 +90,7 @@ img {
 
 .site-nav a {
   text-decoration: none;
+  font-weight: 700;
   color: #ccc;
   text-transform: capitalize;
   font-size: 1.1875rem;
