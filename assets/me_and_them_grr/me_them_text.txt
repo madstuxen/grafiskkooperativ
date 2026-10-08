@@ -1,0 +1,23 @@
+text:
+
+
+Quite an ambitious task. I started this project in August 2026.
+
+I have created an app from scratch to help train relations and get to know yourself better. It's available for both Android and iOS. Database, coaching engine, animations, interactive graphics, encryption, subscriptions, notifications, design.
+
+It has been very rewarding, and it combines all my skills from coaching, psychology, bodywork, graphics, management, programming, databases, and structuring a very complicated project.
+
+It's driven by some basic principles from psychology, packaged in an app, and delivered with a coach that helps you reflect on what you learn from the diary and the exercises. I have used it a lot myself and keep getting surprised.
+
+I am also writing a blog and producing small videos to catch interest. 
+
+If someone wants to collaborate on this or similar projects I would be interested in hearing from you.
+
+Please try it out. It has its own homepage, where you will find download links and a blog about how to use the app.
+
+www.me-and-them.com
+
+
+
+
+

@@ -26,7 +26,13 @@
   </url>
   <url>
     <loc>https://madstuxen.github.io/grafiskkooperativ/projects.html</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://madstuxen.github.io/grafiskkooperativ/me-and-them.html</loc>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

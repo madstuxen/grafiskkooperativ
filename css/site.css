@@ -282,6 +282,28 @@ main {
   transform: scale(1.03);
 }
 
+/* App / UI screenshots — full frame, no crop (Gallery keeps square thumbs) */
+.gallery-grid--full-screenshot {
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.gallery-grid--full-screenshot button {
+  aspect-ratio: auto;
+  overflow: visible;
+  background: #f0f0f0;
+}
+
+.gallery-grid--full-screenshot button img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.gallery-grid--full-screenshot button:hover img {
+  transform: none;
+}
+
 .work-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -354,10 +376,36 @@ main {
   flex-direction: column;
 }
 
+a.project-card {
+  text-decoration: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+a.project-card:hover {
+  border-color: #bbb;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
 .project-card img {
   width: 100%;
   aspect-ratio: 16 / 10;
   object-fit: cover;
+  display: block;
+}
+
+.project-card__shot {
+  background: #f0f0f0;
+  padding: 1rem 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-card--screenshot .project-card__shot img {
+  width: 50%;
+  height: auto;
+  aspect-ratio: auto;
+  object-fit: contain;
   display: block;
 }
 
@@ -379,6 +427,69 @@ main {
 
 .project-card--soon {
   opacity: 0.85;
+}
+
+.project-detail__title {
+  margin: 0 0 1.25rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.project-detail__text p {
+  margin: 0 0 1rem;
+}
+
+.project-detail__text a {
+  color: #C42525;
+}
+
+.project-detail__text a:hover {
+  color: #e03030;
+}
+
+.project-detail__section {
+  margin-top: 2.5rem;
+}
+
+.project-back {
+  margin: 0 0 1.5rem;
+}
+
+.project-back--bottom {
+  margin-top: 2.5rem;
+  margin-bottom: 0;
+}
+
+.project-back a {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  color: #222;
+  font-size: 1.125rem;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.project-back a:hover {
+  border-color: #C42525;
+  color: #C42525;
+}
+
+.project-videos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.project-videos video {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  background: #111;
+  border-radius: 4px;
 }
 
 .lightbox {

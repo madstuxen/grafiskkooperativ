@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="theme-color" content="#000000">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Me and Them — Grafiskkooperativ</title>
+  <meta name="description" content="Me and Them — app for training relations and self-reflection.">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo-link"><img src="assets/Grr_logo_White.svg" alt="Grafiskkooperativ" width="195" height="auto"></a>
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="projects.html" class="is-active">Projects</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="page-content page-content--wide project-detail">
+      <p class="project-back">
+        <a href="projects.html">Projects</a>
+      </p>
+      <h1 class="project-detail__title">Me and Them</h1>
+      <div class="project-detail__text">
+        <p>Quite an ambitious task. I started this project in August 2026.</p>
+        <p>I have created an app from scratch to help train relations and get to know yourself better. It's available for both Android and iOS. Database, coaching engine, animations, interactive graphics, encryption, subscriptions, notifications, design.</p>
+        <p>It has been very rewarding, and it combines all my skills from coaching, psychology, bodywork, graphics, management, programming, databases, and structuring a very complicated project.</p>
+        <p>It's driven by some basic principles from psychology, packaged in an app, and delivered with a coach that helps you reflect on what you learn from the diary and the exercises. I have used it a lot myself and keep getting surprised.</p>
+        <p>I am also writing a blog and producing small videos to catch interest.</p>
+        <p>If someone wants to collaborate on this or similar projects I would be interested in hearing from you.</p>
+        <p>Please try it out. It has its own homepage, where you will find download links and a blog about how to use the app.</p>
+        <p><a href="https://www.me-and-them.com/" target="_blank" rel="noopener noreferrer">www.me-and-them.com</a></p>
+      </div>
+
+      <section class="gallery-section project-detail__section">
+        <h2>Screenshots</h2>
+        <div class="gallery-grid gallery-grid--full-screenshot">
+          <button type="button" data-lightbox="assets/me_and_them_grr/screenshots/bodyscan.jpeg" data-lightbox-alt="Body scan screen"><img src="assets/me_and_them_grr/screenshots/bodyscan.jpeg" alt="Body scan screen" loading="lazy"></button>
+          <button type="button" data-lightbox="assets/me_and_them_grr/screenshots/consetllation.jpeg" data-lightbox-alt="Constellation screen"><img src="assets/me_and_them_grr/screenshots/consetllation.jpeg" alt="Constellation screen" loading="lazy"></button>
+          <button type="button" data-lightbox="assets/me_and_them_grr/screenshots/dialoguescreen.jpeg" data-lightbox-alt="Dialogue screen"><img src="assets/me_and_them_grr/screenshots/dialoguescreen.jpeg" alt="Dialogue screen" loading="lazy"></button>
+          <button type="button" data-lightbox="assets/me_and_them_grr/screenshots/logbook.jpeg" data-lightbox-alt="Logbook"><img src="assets/me_and_them_grr/screenshots/logbook.jpeg" alt="Logbook" loading="lazy"></button>
+          <button type="button" data-lightbox="assets/me_and_them_grr/screenshots/reflect.jpg" data-lightbox-alt="Reflect"><img src="assets/me_and_them_grr/screenshots/reflect.jpg" alt="Reflect" loading="lazy"></button>
+        </div>
+      </section>
+
+      <section class="gallery-section project-detail__section">
+        <h2>Videos</h2>
+        <div class="project-videos">
+          <video controls loop playsinline preload="metadata" width="720" height="1280" poster="assets/me_and_them_grr/InstaMovies/insta_03-poster.jpg" aria-label="Me and Them clip 1">
+            <source src="assets/me_and_them_grr/InstaMovies/insta_03.mp4" type="video/mp4">
+          </video>
+          <video controls loop playsinline preload="metadata" width="720" height="1280" poster="assets/me_and_them_grr/InstaMovies/insta_06-poster.jpg" aria-label="Me and Them clip 2">
+            <source src="assets/me_and_them_grr/InstaMovies/insta_06.mp4" type="video/mp4">
+          </video>
+          <video controls loop playsinline preload="metadata" width="720" height="1280" poster="assets/me_and_them_grr/InstaMovies/insta_07-poster.jpg" aria-label="Me and Them clip 3">
+            <source src="assets/me_and_them_grr/InstaMovies/insta_07.mp4" type="video/mp4">
+          </video>
+        </div>
+      </section>
+
+      <p class="project-back project-back--bottom">
+        <a href="projects.html">Projects</a>
+      </p>
+    </div>
+  </main>
+  <footer class="site-footer">
+    CVR. 32 86 84 95 &emsp; Grafiskkooperativ &emsp; Mads B. Tuxen &emsp; Dalstrøget 53,2 mf 2870 Dyssegård Denmark &emsp;
+    <a href="tel:+4530354269">+ 45 30 35 42 69</a> &emsp; <a class="footer-email" href="mailto:madstuxen@gmail.com">madstuxen@gmail.com</a>
+  </footer>
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image preview">
+    <button type="button" class="lightbox__close" aria-label="Close">&times;</button>
+    <img src="" alt="">
+  </div>
+  <script src="js/nav.js"></script>
+  <script src="js/lightbox.js"></script>
+
+</body>
+</html>
