@@ -1,37 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://madstuxen.github.io/grafiskkooperativ/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <loc>https://grafiskkooperativ.dk/</loc>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://madstuxen.github.io/grafiskkooperativ/about.html</loc>
-    <lastmod>2026-10-07</lastmod>
+    <loc>https://grafiskkooperativ.dk/about.html</loc>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madstuxen.github.io/grafiskkooperativ/gallery.html</loc>
-    <lastmod>2026-10-07</lastmod>
+    <loc>https://grafiskkooperativ.dk/gallery.html</loc>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madstuxen.github.io/grafiskkooperativ/work.html</loc>
-    <lastmod>2026-10-07</lastmod>
+    <loc>https://grafiskkooperativ.dk/work.html</loc>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://madstuxen.github.io/grafiskkooperativ/projects.html</loc>
+    <loc>https://grafiskkooperativ.dk/projects.html</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://madstuxen.github.io/grafiskkooperativ/me-and-them.html</loc>
+    <loc>https://grafiskkooperativ.dk/me-and-them.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://grafiskkooperativ.dk/inna-inuk.html</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

@@ -4,7 +4,7 @@ Static portfolio site for [Grafiskkooperativ](https://grafiskkooperativ.dk) — 
 
 ## Live site
 
-After Pages is enabled: **https://madstuxen.github.io/grafiskkooperativ/**
+Live: **https://grafiskkooperativ.dk/** (GitHub Pages; repo [madstuxen/grafiskkooperativ](https://github.com/madstuxen/grafiskkooperativ))
 
 ## Local preview
 

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://madstuxen.github.io/grafiskkooperativ/sitemap.xml
+Sitemap: https://grafiskkooperativ.dk/sitemap.xml
